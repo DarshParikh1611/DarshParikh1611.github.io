@@ -1,0 +1,13 @@
+# Head
+Page Name
+Authod
+Title
+
+# Templates
+header.tmpl
+main.tmpl
+footer.tmpl
+
+# Data
+item ex.cont
+text ex.cont 1

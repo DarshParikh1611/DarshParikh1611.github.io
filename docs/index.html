@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Page Name </title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Authod">
+	<style>
+		.header {
+		    overflow: hidden;
+		    background-color: #333;
+		}
+		.header a {
+		    float: left;
+		    color: #f2f2f2;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    font-size: 17px;
+		}
+		.header a:hover {
+		    background-color: #ddd;
+		    color: black;
+		}
+		.header a.active {
+		    background-color: #04AA6D;
+		    color: white;
+		}
+		body {
+		    margin: 0;
+		    word-wrap: break-word;
+		}
+		.main {
+		    padding-left: 16px;
+		    padding-right: 16px;
+		}
+		.main a {
+		    color:#004f94;
+		}
+		.main a.pagingLink:active,
+		.main a.pagingLink:link,
+		.main a.pagingLink:visited,
+		.main a.pagingLink:hover    {
+		    color:#004f94;
+		}
+		.item {
+		    overflow: hidden;
+		    background-color: rgb(238, 236, 236);
+		    position:relative;
+		}
+		.item_link {
+		    position:absolute;
+		    width:100%;
+		    height:100%;
+		    top:0;
+		    left: 0;
+		    z-index: 1;
+		}
+		.item-text {
+		    margin-left: 10px;
+		    margin-right: 8px;
+		}
+		.item img {
+		    width: 30%;
+		    margin-top: 10px;
+		    margin-bottom: 10px;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		    float: right;
+		}
+		footer {
+		    padding-left:16px;
+		    padding-right:16px;
+		}
+		ion-icon {
+		    font-size: 130%;
+		}
+		.footer-icons {
+		    display: flex;
+		    justify-content: center;
+		}
+		.footer-icons a {
+		    padding-left:1%;
+		    padding-right:1%;
+		    color:#002342;
+		}
+		.footer-icons a.pagingLink:active,
+		.footer-icons a.pagingLink:link,
+		.footer-icons a.pagingLink:visited,
+		.footer-icons a.pagingLink:hover    {
+		    color:#002342;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<a href="home.html">                    Home             </a>
+		<a href="about.html">                   About            </a>
+		<a href="3d-design/3d.html">            3D Designs       </a>
+		<a href="programming/programming.html"> Programming Work </a>
+		<a href="proj/projects.html">           Projects         </a>
+
+	</div>
+	<div class="main">
+	<h1> Title </h1>
+	<hr width="100%" align="center" color="black" size="1">
+	<hr width="70%" align="center" color="lightgrey" size="1">
+	<div class="item">
+		<a href="www.google.com">
+			<span class="item_link"></span>
+		</a>
+		<img src="../.\img\test.jpg"/>
+		<div class="item-text">
+			<h3> Title </h3>
+			<p>
+				This is a dummy text. This is a dummy text. This is a dummy text.
+				This is a dummy text. This is a dummy text. This is a dummy text.
+
+			</p>
+		</div>
+	</div>
+	<hr width="70%" align="center" color="lightgrey" size="1">
+	<p>
+		This is a text
+	</p>
+	</div>
+</body>
+<footer>
+	<div class="footer">
+		<hr width="100%" align="center" color="black" size="1">
+		<!-- Icons -->
+		<div class="footer-icons">
+		    <!-- Mail : LinkedIn : Github (Personal) : Github (School) -->
+		    <a href="mailto: darshparikh16@gmail.com"              target="_blank"> <ion-icon name="mail"         ></ion-icon> </a>
+		    <a href="https://www.linkedin.com/in/darshparikh1602/" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+		    <a href="https://github.com/Darsh-Parikh"              target="_blank"> <ion-icon name="logo-github"  ></ion-icon> </a>
+		    <a href="https://github.com/Darsh-V-Parikh"            target="_blank"> <ion-icon name="logo-github"  ></ion-icon> </a>
+		</div>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<p style="text-align:center;"> Darsh Parikh </p>
+
+	</div>
+</footer>
+</html>
